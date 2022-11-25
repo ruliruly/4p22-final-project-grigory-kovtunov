@@ -1,0 +1,16 @@
+.CommonButton {
+   height: 40px;
+   outline: none;
+   border: none;
+   background: rgb(138, 43, 226);
+   padding: 6px 20px;
+   color: white;
+   border-radius: 0;
+   transition: .2s background-color;
+   cursor: pointer;
+}
+.CommonButton:hover {
+    background: rgba(150, 50, 350);
+}
+
+
