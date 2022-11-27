@@ -1,7 +1,5 @@
 import './Index-page.css'
 import Card from '../../components/Card/Card';          
-import Input from '../../components/input/input';
-import Counter from '../../components/Counter/Counter';
 import Header from '../../components/Header/Header';
 import { useState,  useEffect } from 'react';
 
@@ -20,7 +18,6 @@ function IndexPage() {
 
       <div className="index-page"> 
         <Header/>
-        <Counter/>
         <div className="index-page__container">
           {
             products.map((item, index) => {                           
@@ -30,11 +27,6 @@ function IndexPage() {
                          price={item.price}/> 
               })
           };
-        </div>
-        <div className="index-page__newsletter">
-          <h2>Subscribe to company news</h2>
-          <Input name="email" id="email" type="email" placeholder="email"/>
-          <button>Subscribe</button> 
         </div>
       </div>
     )

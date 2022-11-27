@@ -1,8 +1,8 @@
 
 .index-page__container {
-    margin-top: 80px;
     margin-left: calc(40 / 1440 * 100vw);
     margin-right:calc(40 / 1440 * 100vw);
+    padding-top: 131px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
