@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    height: 80px;
+    background-color: rgb(84, 64, 86);
+}
+
+.header__logo {
+    width: 200px;
+    height: 70px;
+    margin: 5px 5px 10px;
+    background: url(../../assets/img/logo-shopping.png);
+    background-size: 100% 100%;
+}
+
+.header__link {
+    width: 100px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(213, 56, 12); 
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.header__link:hover {
+    color: rgba(150, 50, 350);
+}
+    

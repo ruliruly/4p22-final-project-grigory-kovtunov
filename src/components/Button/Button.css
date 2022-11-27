@@ -1,15 +1,16 @@
-.CommonButton {
+.common-button {
    height: 40px;
+   padding: 6px 20px;
+   border-radius: 0;
    outline: none;
    border: none;
-   background: rgb(138, 43, 226);
-   padding: 6px 20px;
-   color: white;
-   border-radius: 0;
-   transition: .2s background-color;
    cursor: pointer;
+   font-size: 17px;
+   transition: .2s background-color;
+   color: rgb(247, 189, 168);
+   background: rgb(146, 32, 174);
 }
-.CommonButton:hover {
+.common-button:hover {
     background: rgba(150, 50, 350);
 }
 
