@@ -1,6 +1,5 @@
 import './Index-page.css'
 import Card from '../../components/Card/Card';          
-import Header from '../../components/Header/Header';
 import { useState,  useEffect } from 'react';
 
 function IndexPage() {
@@ -17,14 +16,15 @@ function IndexPage() {
     return (
 
       <div className="index-page"> 
-        <Header/>
         <div className="index-page__container">
           {
             products.map((item, index) => {                           
               return <Card key={index} title={item.title} 
                          //description={item.description}
                          img={item.image}
-                         price={item.price}/> 
+                         price={item.price}
+                         onClick={() => console.log('click on', index)}
+                         id={item.id} /> 
               })
           };
         </div>

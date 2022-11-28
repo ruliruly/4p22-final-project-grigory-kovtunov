@@ -13,3 +13,8 @@
     border-left: none; 
     font-size: 17px;
 }
+
+.common-input::placeholder {
+    color:  rgb(203, 190, 200);
+}
+
