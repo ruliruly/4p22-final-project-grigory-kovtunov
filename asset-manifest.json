@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/4p22-final-project-grigory-kovtunov/static/css/main.cf79e01a.css",
+    "main.css": "/4p22-final-project-grigory-kovtunov/static/css/main.4b4ba9b9.css",
     "main.js": "/4p22-final-project-grigory-kovtunov/static/js/main.811a54c7.js",
     "static/media/logo-shopping.png": "/4p22-final-project-grigory-kovtunov/static/media/logo-shopping.5c3593fbfbf035e6fb17.png",
     "index.html": "/4p22-final-project-grigory-kovtunov/index.html",
-    "main.cf79e01a.css.map": "/4p22-final-project-grigory-kovtunov/static/css/main.cf79e01a.css.map",
+    "main.4b4ba9b9.css.map": "/4p22-final-project-grigory-kovtunov/static/css/main.4b4ba9b9.css.map",
     "main.811a54c7.js.map": "/4p22-final-project-grigory-kovtunov/static/js/main.811a54c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf79e01a.css",
+    "static/css/main.4b4ba9b9.css",
     "static/js/main.811a54c7.js"
   ]
 }
