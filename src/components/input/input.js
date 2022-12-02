@@ -16,9 +16,8 @@ export default class input extends React.Component {
     //      type: PropTypes.string,
     //      placeholder: PropTypes.string
     // }
-
     render() {
-   const { name, id, type, placeholder} = this.props;   
+      const { name, id, type, placeholder} = this.props;
         return (                                        
             <input className="common-input"              
                    name={ name }       
@@ -28,4 +27,3 @@ export default class input extends React.Component {
         )
     }
 };
- 

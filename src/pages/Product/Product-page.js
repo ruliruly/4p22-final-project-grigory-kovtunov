@@ -1,28 +1,33 @@
 import './Product-page.css';
 import { useEffect, useState } from 'react';
-import Button from '../../components/Button/Button';
+import { useLocation } from "react-router-dom";
+import Card from "../../components/Card/Card";
 
 function ProductPage() {
-    const [ product, setProduct ] = useState({});
+  const [ product, setProduct ] = useState({});
+  const location = useLocation()
 
-    useEffect( async () =>  {
-        const response = await fetch ('https://fakestoreapi.com/products/1');
-        const result = await response.json();
+  useEffect(() => {
+    async function fetchData() {
+      const response = await fetch(`https://fakestoreapi.com${location.pathname}`);
+      setProduct(await response.json());
+    }
 
-        setProduct(result);
-    }, [])
+    fetchData().then()
+  }, [location])
 
-    return (
-        <div className='box'>
-        <div className='container-product'>
-            <h2 className='container-product__title'>{ product.title }</h2>
-            <img className='container-product_img' src={ product.image }></img>
-            <p className='container-product_description'>{ product.description }</p>
-            <div className='container-product__price'>{ product.price }</div> 
-            <Button>Add to Basket</Button>
-        </div>
-        </div>
-    )
-  }
+  return (
+    <div className='box'>
+      { Card({
+        id: product.id,
+        img: product.image,
+        title: product.title,
+        description: product.description,
+        price: product.price,
+        cardView: true
+      }) }
+    </div>
+  )
+}
 
 export default ProductPage;
