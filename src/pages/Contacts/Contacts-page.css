@@ -48,3 +48,8 @@ textarea::placeholder {
 }
 
 
+@media screen and (max-width: 570px) {
+.container-form {
+    padding-top: 100px;
+}
+}   

@@ -1,7 +1,30 @@
 .box {
     padding-top: 130px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
+@media screen and (max-width: 800px) {
+
+.container-product {
+    width: 600px;   
+}
+}
+
+@media screen and (max-width: 600px) {
+
+.container-product {
+    width: 360px;   
+}
+}
+
+@media screen and (max-width: 380px) {
+
+.container-product {
+    width: 300px;    
+}
+
+.box {
+    padding-top: 90px;
+}
+}
