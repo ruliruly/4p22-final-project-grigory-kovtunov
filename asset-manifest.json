@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/4p22-final-project-grigory-kovtunov/static/css/main.45e54fde.css",
-    "main.js": "/4p22-final-project-grigory-kovtunov/static/js/main.fa829382.js",
+    "main.css": "/4p22-final-project-grigory-kovtunov/static/css/main.cf79e01a.css",
+    "main.js": "/4p22-final-project-grigory-kovtunov/static/js/main.811a54c7.js",
     "static/media/logo-shopping.png": "/4p22-final-project-grigory-kovtunov/static/media/logo-shopping.5c3593fbfbf035e6fb17.png",
     "index.html": "/4p22-final-project-grigory-kovtunov/index.html",
-    "main.45e54fde.css.map": "/4p22-final-project-grigory-kovtunov/static/css/main.45e54fde.css.map",
-    "main.fa829382.js.map": "/4p22-final-project-grigory-kovtunov/static/js/main.fa829382.js.map"
+    "main.cf79e01a.css.map": "/4p22-final-project-grigory-kovtunov/static/css/main.cf79e01a.css.map",
+    "main.811a54c7.js.map": "/4p22-final-project-grigory-kovtunov/static/js/main.811a54c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.45e54fde.css",
-    "static/js/main.fa829382.js"
+    "static/css/main.cf79e01a.css",
+    "static/js/main.811a54c7.js"
   ]
 }
